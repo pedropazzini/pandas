@@ -917,7 +917,7 @@ class Series(base.IndexOpsMixin, generic.NDFrame):
 
     @deprecate_kwarg(old_arg_name='reps', new_arg_name='repeats')
     def repeat(self, repeats, *args, **kwargs):
-                """
+        """
         Repeat elements of a Series.
 
         Each element of the Series is repeated `repeats` times.
